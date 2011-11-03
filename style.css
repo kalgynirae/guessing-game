@@ -1,0 +1,16 @@
+body
+{
+    color: #505050;
+    font-family: gentium, georgia, serif;
+    font-size: 14pt;
+}
+p { margin: 0.5em 0; }
+
+#output-frame { margin: 0 2em; }
+#instructions { font-size: 1.2em; }
+#output { font-size: 1.3em; font-weight: bold; }
+#guesses { word-spacing: 0.7em; }
+
+.higher { color: #30a0c0; }
+.lower { color: #c0a030; }
+.win { color: green; }
