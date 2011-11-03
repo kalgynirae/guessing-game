@@ -32,7 +32,7 @@ var answer = Math.floor(Math.random() * (HIGH - LOW + 1)) + LOW;
 $input.focus();
 
 // Use form submission so the user can use the enter key to guess
-$form.submit(function() {
+$form.submit(function(event) {
     // Don't actually let the form submit
     event.preventDefault();
 
