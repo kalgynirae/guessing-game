@@ -48,7 +48,7 @@ $form.submit(function(event) {
         responseClass = 'higher';
     }
     else if (guess == answer) {
-        response = "You got it!";
+        response = "You got it! Yay! You win!";
         responseClass = 'win';
     }
 
