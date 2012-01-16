@@ -1,7 +1,10 @@
 guessing-game
-a simple guess-the-number game in javascript + jquery
+a simple guess-the-number game in javascript and jquery
 
 You can pass the bounds in the query string like this:
 index.html?low=1&high=9001
 
-This has only been tested in Chromium.
+A demo is available here:
+http://lumeh.org/guess/
+
+This has been tested in Chromium and Firefox.
