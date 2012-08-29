@@ -25,7 +25,7 @@ var LOW = (!isNaN(plow) ? plow : 1);
 var HIGH = (!isNaN(phigh) ? phigh : Math.ceil(Math.random() * 500));
 
 // Post instructions and calculate an answer
-$instructions.append(LOW + ' and ' + HIGH + '.');
+$instructions.append(LOW + ' and ' + HIGH + ' (inclusive).');
 var answer = Math.floor(Math.random() * (HIGH - LOW + 1)) + LOW;
 
 // Focus the input box for ease of input
